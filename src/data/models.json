@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "provider": "硅基流动",
+        "name": "GLM-Z1-9B-0414",
+        "avgSpeed": 78.80,
+        "maxSpeed": 79.25,
+        "minSpeed": 77.60,
+        "firstToken": 8.89,
+        "creator": "智谱 AI"
+    },
+    {
+        "id": 2,
+        "provider": "硅基流动",
+        "name": "GLM-4-9B-0414",
+        "avgSpeed": 77.87,
+        "maxSpeed": 80.49,
+        "minSpeed": 72.39,
+        "firstToken": 0.80,
+        "creator": "智谱 AI"
+    },
+    {
+        "id": 3,
+        "provider": "硅基流动",
+        "name": "DeepSeek-R1-Distill-Qwen-7B",
+        "avgSpeed": 66.31,
+        "maxSpeed": 76.96,
+        "minSpeed": 67.53,
+        "firstToken": 12.96,
+        "creator": "Deepseek"
+    },
+    {
+        "id": 4,
+        "provider": "硅基流动",
+        "name": "DeepSeek-R1-Distill-Qwen-1.5B",
+        "avgSpeed": 142.95,
+        "maxSpeed": 153.18,
+        "minSpeed": 136.21,
+        "firstToken": 4.47,
+        "creator": "Deepseek"
+    },
+    {
+        "id": 5,
+        "provider": "硅基流动",
+        "name": "Qwen2.5-7B-Instruct",
+        "avgSpeed": 67.51,
+        "maxSpeed": 69.72,
+        "minSpeed": 66.61,
+        "firstToken": 0.87,
+        "creator": "Qwen"
+    },
+    {
+        "id": 6,
+        "provider": "硅基流动",
+        "name": "Qwen2.5-Coder-7B-Instruct",
+        "avgSpeed": 54.18,
+        "maxSpeed": 81.39,
+        "minSpeed": 34.28,
+        "firstToken": 0.74,
+        "creator": "Qwen"
+    },
+    {
+        "id": 7,
+        "provider": "BigModel",
+        "name": "glm-z1-flash",
+        "avgSpeed": 116.46,
+        "maxSpeed": 116.33,
+        "minSpeed": 114.94,
+        "firstToken": 0.43,
+        "creator": "智谱 AI"
+    },
+    {
+        "id": 8,
+        "provider": "BigModel",
+        "name": "glm-4-flash-250414",
+        "avgSpeed": 48.96,
+        "maxSpeed": 52.75,
+        "minSpeed": 42.76,
+        "firstToken": 0.46,
+        "creator": "智谱 AI"
+    },
+    {
+        "id": 9,
+        "provider": "Free-QWQ",
+        "name": "QwQ-32B",
+        "avgSpeed": 29.55,
+        "maxSpeed": 38.70,
+        "minSpeed": 19.01,
+        "firstToken": 13.52,
+        "creator": "Qwen"
+    },
+    {
+        "id": 10,
+        "provider": "讯飞星火",
+        "name": "spark-lite",
+        "avgSpeed": 37.43,
+        "maxSpeed": 40.72,
+        "minSpeed": 32.97,
+        "firstToken": 1.06,
+        "creator": "科大讯飞"
+    }
+]
