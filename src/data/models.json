@@ -98,5 +98,365 @@
         "minSpeed": 32.97,
         "firstToken": 1.06,
         "creator": "科大讯飞"
+    },
+    {
+        "id": 11,
+        "provider": "OpenRouter",
+        "name": "glm-z1-32b",
+        "avgSpeed": 31.09,
+        "maxSpeed": 31.09,
+        "minSpeed": 31.09,
+        "firstToken": 1.3,
+        "creator": "智谱 AI"
+    },
+    {
+        "id": 12,
+        "provider": "OpenRouter",
+        "name": "glm-4-32b",
+        "avgSpeed": 32.35,
+        "maxSpeed": 47.51,
+        "minSpeed": 17.2,
+        "firstToken": 0.91,
+        "creator": "智谱 AI"
+    },
+    {
+        "id": 13,
+        "provider": "OpenRouter",
+        "name": "shisa-v2-llama3.3-70b",
+        "avgSpeed": 27.45,
+        "maxSpeed": 31.57,
+        "minSpeed": 20.88,
+        "firstToken": 0.97,
+        "creator": "Llama"
+    },
+    {
+        "id": 14,
+        "provider": "OpenRouter",
+        "name": "qwq-32b-arliai-rpr-v1",
+        "avgSpeed": 13.73,
+        "maxSpeed": 21.88,
+        "minSpeed": 10.38,
+        "firstToken": 0.73,
+        "creator": "Qwen"
+    },
+    {
+        "id": 15,
+        "provider": "OpenRouter",
+        "name": "deepcoder-14b-preview",
+        "avgSpeed": 51.31,
+        "maxSpeed": 167.31,
+        "minSpeed": 12.62,
+        "firstToken": 0.89,
+        "creator": "Deepcoder"
+    },
+    {
+        "id": 16,
+        "provider": "OpenRouter",
+        "name": "kimi-vl-a3b-thinking",
+        "avgSpeed": 27.08,
+        "maxSpeed": 27.08,
+        "minSpeed": 27.08,
+        "firstToken": 0.76,
+        "creator": "月之暗面"
+    },
+    {
+        "id": 17,
+        "provider": "OpenRouter",
+        "name": "llama-3.1-nemotron-nano-8b-v1",
+        "avgSpeed": 86.57,
+        "maxSpeed": 128.92,
+        "minSpeed": 39.0,
+        "firstToken": 0.85,
+        "creator": "Llama"
+    },
+    {
+        "id": 18,
+        "provider": "OpenRouter",
+        "name": "llama-3.3-nemotron-super-49b-v1",
+        "avgSpeed": 43.96,
+        "maxSpeed": 48.55,
+        "minSpeed": 36.19,
+        "firstToken": 0.79,
+        "creator": "Llama"
+    },
+    {
+        "id": 19,
+        "provider": "Cloudflare",
+        "name": "qwen1.5-0.5b-chat",
+        "avgSpeed": 59.96,
+        "maxSpeed": 83.63,
+        "minSpeed": 44.53,
+        "firstToken": 1.01,
+        "creator": "Qwen"
+    },
+    {
+        "id": 20,
+        "provider": "Cloudflare",
+        "name": "gemma-2b-it-lora",
+        "avgSpeed": 9.38,
+        "maxSpeed": 10.6,
+        "minSpeed": 6.59,
+        "firstToken": 1.05,
+        "creator": "谷歌"
+    },
+    {
+        "id": 21,
+        "provider": "Cloudflare",
+        "name": "starling-lm-7b-beta",
+        "avgSpeed": 14.36,
+        "maxSpeed": 14.94,
+        "minSpeed": 14.17,
+        "firstToken": 1.2,
+        "creator": "Starling"
+    },
+    {
+        "id": 22,
+        "provider": "Cloudflare",
+        "name": "llamaguard-7b-awq",
+        "avgSpeed": 13.95,
+        "maxSpeed": 38.33,
+        "minSpeed": 6.3,
+        "firstToken": 1.34,
+        "creator": "Llama"
+    },
+    {
+        "id": 23,
+        "provider": "Cloudflare",
+        "name": "neural-chat-7b-v3-1-awq",
+        "avgSpeed": 38.52,
+        "maxSpeed": 41.03,
+        "minSpeed": 36.76,
+        "firstToken": 0.44,
+        "creator": "Neural"
+    },
+    {
+        "id": 24,
+        "provider": "Cloudflare",
+        "name": "mistral-7b-instruct-v0.2-lora",
+        "avgSpeed": 15.29,
+        "maxSpeed": 15.97,
+        "minSpeed": 14.7,
+        "firstToken": 0.57,
+        "creator": "Mistral"
+    },
+    {
+        "id": 25,
+        "provider": "Cloudflare",
+        "name": "tinyllama-1.1b-chat-v1.0",
+        "avgSpeed": 61.76,
+        "maxSpeed": 67.6,
+        "minSpeed": 52.89,
+        "firstToken": 0.56,
+        "creator": "Llama"
+    },
+    {
+        "id": 26,
+        "provider": "Cloudflare",
+        "name": "mistral-7b-instruct-v0.2",
+        "avgSpeed": 14.44,
+        "maxSpeed": 15.51,
+        "minSpeed": 13.28,
+        "firstToken": 0.67,
+        "creator": "Mistral"
+    },
+    {
+        "id": 27,
+        "provider": "Cloudflare",
+        "name": "una-cybertron-7b-v2-bf16",
+        "avgSpeed": 24.82,
+        "maxSpeed": 27.18,
+        "minSpeed": 24.0,
+        "firstToken": 0.71,
+        "creator": "UNA"
+    },
+    {
+        "id": 28,
+        "provider": "Cloudflare",
+        "name": "discolm-german-7b-v1-awq",
+        "avgSpeed": 36.94,
+        "maxSpeed": 39.22,
+        "minSpeed": 33.41,
+        "firstToken": 0.63,
+        "creator": "Discolm"
+    },
+    {
+        "id": 29,
+        "provider": "Cloudflare",
+        "name": "mistral-7b-instruct-v0.1-awq",
+        "avgSpeed": 37.31,
+        "maxSpeed": 40.81,
+        "minSpeed": 34.96,
+        "firstToken": 0.76,
+        "creator": "Mistral"
+    },
+    {
+        "id": 30,
+        "provider": "Cloudflare",
+        "name": "qwen1.5-7b-chat-awq",
+        "avgSpeed": 34.64,
+        "maxSpeed": 36.76,
+        "minSpeed": 32.86,
+        "firstToken": 0.46,
+        "creator": "Qwen"
+    },
+    {
+        "id": 31,
+        "provider": "Cloudflare",
+        "name": "llama-2-13b-chat-awq",
+        "avgSpeed": 21.23,
+        "maxSpeed": 23.22,
+        "minSpeed": 16.1,
+        "firstToken": 0.74,
+        "creator": "Llama"
+    },
+    {
+        "id": 32,
+        "provider": "Cloudflare",
+        "name": "deepseek-coder-6.7b-base-awq",
+        "avgSpeed": 36.94,
+        "maxSpeed": 44.01,
+        "minSpeed": 28.42,
+        "firstToken": 0.53,
+        "creator": "Deepseek"
+    },
+    {
+        "id": 33,
+        "provider": "Cloudflare",
+        "name": "llama-2-7b-chat-hf-lora",
+        "avgSpeed": 17.21,
+        "maxSpeed": 21.49,
+        "minSpeed": 2.83,
+        "firstToken": 0.69,
+        "creator": "Llama"
+    },
+    {
+        "id": 34,
+        "provider": "Cloudflare",
+        "name": "openhermes-2.5-mistral-7b-awq",
+        "avgSpeed": 34.69,
+        "maxSpeed": 37.33,
+        "minSpeed": 28.22,
+        "firstToken": 0.6,
+        "creator": "Mistral"
+    },
+    {
+        "id": 35,
+        "provider": "Cloudflare",
+        "name": "deepseek-coder-6.7b-instruct-awq",
+        "avgSpeed": 32.09,
+        "maxSpeed": 41.31,
+        "minSpeed": 24.97,
+        "firstToken": 0.48,
+        "creator": "Deepseek"
+    },
+    {
+        "id": 36,
+        "provider": "Cloudflare",
+        "name": "deepseek-math-7b-instruct",
+        "avgSpeed": 15.91,
+        "maxSpeed": 16.87,
+        "minSpeed": 14.56,
+        "firstToken": 0.53,
+        "creator": "Deepseek"
+    },
+    {
+        "id": 37,
+        "provider": "Cloudflare",
+        "name": "falcon-7b-instruct",
+        "avgSpeed": 14.77,
+        "maxSpeed": 16.01,
+        "minSpeed": 13.31,
+        "firstToken": 0.73,
+        "creator": "Falcon"
+    },
+    {
+        "id": 38,
+        "provider": "Cloudflare",
+        "name": "hermes-2-pro-mistral-7b",
+        "avgSpeed": 14.38,
+        "maxSpeed": 15.39,
+        "minSpeed": 13.58,
+        "firstToken": 0.55,
+        "creator": "Hermes"
+    },
+    {
+        "id": 39,
+        "provider": "Cloudflare",
+        "name": "zephyr-7b-beta-awq",
+        "avgSpeed": 39.83,
+        "maxSpeed": 41.03,
+        "minSpeed": 37.53,
+        "firstToken": 0.37,
+        "creator": "Zephyr"
+    },
+    {
+        "id": 40,
+        "provider": "Cloudflare",
+        "name": "gemma-7b-it-lora",
+        "avgSpeed": 12.02,
+        "maxSpeed": 12.84,
+        "minSpeed": 10.29,
+        "firstToken": 0.62,
+        "creator": "谷歌"
+    },
+    {
+        "id": 41,
+        "provider": "Cloudflare",
+        "name": "qwen1.5-1.8b-chat",
+        "avgSpeed": 50.51,
+        "maxSpeed": 56.21,
+        "minSpeed": 46.81,
+        "firstToken": 0.47,
+        "creator": "Qwen"
+    },
+    {
+        "id": 42,
+        "provider": "Cloudflare",
+        "name": "sqlcoder-7b-2",
+        "avgSpeed": 13.32,
+        "maxSpeed": 15.76,
+        "minSpeed": 9.89,
+        "firstToken": 0.59,
+        "creator": "Sqlcoder"
+    },
+    {
+        "id": 43,
+        "provider": "Cloudflare",
+        "name": "phi-2",
+        "avgSpeed": 30.79,
+        "maxSpeed": 35.01,
+        "minSpeed": 23.54,
+        "firstToken": 0.63,
+        "creator": "微软"
+    },
+    {
+        "id": 44,
+        "provider": "Cloudflare",
+        "name": "gemma-7b-it",
+        "avgSpeed": 11.72,
+        "maxSpeed": 13.02,
+        "minSpeed": 9.76,
+        "firstToken": 0.68,
+        "creator": "谷歌"
+    },
+    {
+        "id": 45,
+        "provider": "Cloudflare",
+        "name": "qwen1.5-14b-chat-awq",
+        "avgSpeed": 18.86,
+        "maxSpeed": 20.66,
+        "minSpeed": 17.17,
+        "firstToken": 0.54,
+        "creator": "Qwen"
+    },
+    {
+        "id": 46,
+        "provider": "Cloudflare",
+        "name": "openchat-3.5-0106",
+        "avgSpeed": 14.64,
+        "maxSpeed": 15.29,
+        "minSpeed": 14.24,
+        "firstToken": 0.63,
+        "creator": "Openchat"
     }
 ]

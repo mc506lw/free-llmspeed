@@ -82,7 +82,7 @@ export default {
       selectedCreators: [],
       selectedSort: 'avgSpeed',
       providers: ['硅基流动', 'BigModel', 'Free-QWQ', '讯飞星火', 'Cloudflare', 'OpenRouter'],
-      creators: ['智谱 AI', 'Deepseek', 'Qwen', '科大讯飞'],
+      creators: ['智谱 AI', 'Deepseek', 'Qwen', '科大讯飞', 'Llama', 'Deepcoder', 'Openchat', '微软', '谷歌', 'Zephyr', 'Hermes', 'Falcon', 'Mistral', 'Sqlcoder', 'Discolm', 'UNA', 'Neural', 'Starling'],
       models: []
     }
   },
