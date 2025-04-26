@@ -467,7 +467,7 @@
         "maxSpeed": 54.77,
         "minSpeed": 35.96,
         "firstToken": 1.27,
-        "creator": "DeepSeek"
+        "creator": "Deepseek"
     },
     {
         "id": 48,
@@ -477,7 +477,7 @@
         "maxSpeed": 52.39,
         "minSpeed": 32.25,
         "firstToken": 0.9,
-        "creator": "DeepSeek"
+        "creator": "Deepseek"
     },
     {
         "id": 49,
@@ -487,7 +487,7 @@
         "maxSpeed": 46.11,
         "minSpeed": 29.05,
         "firstToken": 0.98,
-        "creator": "DeepSeek"
+        "creator": "Deepseek"
     },
     {
         "id": 54,
@@ -507,7 +507,7 @@
         "maxSpeed": 66.78,
         "minSpeed": 43.92,
         "firstToken": 1.08,
-        "creator": "DeepSeek"
+        "creator": "Deepseek"
     },
     {
         "id": 59,
@@ -517,7 +517,7 @@
         "maxSpeed": 71.05,
         "minSpeed": 59.09,
         "firstToken": 1.0,
-        "creator": "DeepCoder"
+        "creator": "Deepcoder"
     },
     {
         "id": 60,
