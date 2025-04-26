@@ -5,7 +5,9 @@
         <div class="flex justify-between h-16">
           <div class="flex items-center">
             <span class="h-8 w-16 mr-4 text-2xl font-semibold text-gray-900 dark:text-white">[白嫖]</span>
-            <span class="text-xl font-semibold text-gray-900 dark:text-white">免费大模型速度排行榜</span>
+            <a class="text-xl font-semibold text-gray-900 dark:text-white" href="#">免费大模型速度排行榜</a>
+            <router-link to="/" class="ml-8 px-3 py-2 rounded-md text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">模型速度比较</router-link>
+            <router-link to="/vendors" class="px-3 py-2 rounded-md text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">供应商信息</router-link>
           </div>
           
           <div class="flex items-center space-x-4">
@@ -24,11 +26,11 @@
         </div>
       </div>
     </nav>
-    <ModelLeaderboard />
+    <router-view />
     <footer class="fixed bottom-0 w-screen py-4 text-center">
       <div class="flex justify-center space-x-4 ">
-        <div class="w-96 bg-gray-200 dark:bg-gray-700 rounded-2xl">
-          <span class="text-sm dark:text-gray-100">© 2024 白嫖大模型速度排行榜  By:</span><a class="dark:text-gray-200" href="https://github.com/mc506lw">mc506lw</a></div>
+        <div class="w-72 bg-gray-200 dark:bg-gray-700 rounded-2xl">
+          <a class="text-sm dark:text-gray-100" href="https://github.com/mc506lw/free-llmspeed">© 2025 白嫖大模型速度排行榜  By:</a><a class="dark:text-gray-200" href="https://github.com/mc506lw">mc506lw</a></div>
       </div>
     </footer>
   </div>

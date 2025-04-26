@@ -63,10 +63,10 @@
         "id": 7,
         "provider": "BigModel",
         "name": "glm-z1-flash",
-        "avgSpeed": 116.46,
-        "maxSpeed": 116.33,
-        "minSpeed": 114.94,
-        "firstToken": 0.43,
+        "avgSpeed": 111.8,
+        "maxSpeed": 126.14,
+        "minSpeed": 99.99,
+        "firstToken": 0.23,
         "creator": "智谱 AI"
     },
     {
@@ -458,5 +458,125 @@
         "minSpeed": 14.24,
         "firstToken": 0.63,
         "creator": "Openchat"
+    },
+    {
+        "id": 47,
+        "provider": "Chutes",
+        "name": "DeepSeek-R1",
+        "avgSpeed": 42.7,
+        "maxSpeed": 54.77,
+        "minSpeed": 35.96,
+        "firstToken": 1.27,
+        "creator": "DeepSeek"
+    },
+    {
+        "id": 48,
+        "provider": "Chutes",
+        "name": "DeepSeek-V3-0324",
+        "avgSpeed": 39.38,
+        "maxSpeed": 52.39,
+        "minSpeed": 32.25,
+        "firstToken": 0.9,
+        "creator": "DeepSeek"
+    },
+    {
+        "id": 49,
+        "provider": "Chutes",
+        "name": "DeepSeek-V3",
+        "avgSpeed": 34.87,
+        "maxSpeed": 46.11,
+        "minSpeed": 29.05,
+        "firstToken": 0.98,
+        "creator": "DeepSeek"
+    },
+    {
+        "id": 54,
+        "provider": "Chutes",
+        "name": "MAI-DS-R1-FP8",
+        "avgSpeed": 47.17,
+        "maxSpeed": 53.12,
+        "minSpeed": 42.89,
+        "firstToken": 1.04,
+        "creator": "微软"
+    },
+    {
+        "id": 55,
+        "provider": "Chutes",
+        "name": "DeepSeek-R1-Zero",
+        "avgSpeed": 58.86,
+        "maxSpeed": 66.78,
+        "minSpeed": 43.92,
+        "firstToken": 1.08,
+        "creator": "DeepSeek"
+    },
+    {
+        "id": 59,
+        "provider": "Chutes",
+        "name": "DeepCoder-14B-Preview",
+        "avgSpeed": 64.29,
+        "maxSpeed": 71.05,
+        "minSpeed": 59.09,
+        "firstToken": 1.0,
+        "creator": "DeepCoder"
+    },
+    {
+        "id": 60,
+        "provider": "Chutes",
+        "name": "shisa-v2-llama3.3-70b",
+        "avgSpeed": 29.73,
+        "maxSpeed": 32.95,
+        "minSpeed": 25.59,
+        "firstToken": 0.82,
+        "creator": "Shisa"
+    },
+    {
+        "id": 62,
+        "provider": "Chutes",
+        "name": "QwQ-32B-ArliAI-RpR-v1",
+        "avgSpeed": 57.24,
+        "maxSpeed": 127.32,
+        "minSpeed": 31.39,
+        "firstToken": 1.14,
+        "creator": "Qwen"
+    },
+    {
+        "id": 63,
+        "provider": "Pollinations",
+        "name": "Qwen 2.5 Coder 32B",
+        "avgSpeed": 15.7,
+        "maxSpeed": 18.13,
+        "minSpeed": 13.26,
+        "firstToken": 17.68,
+        "creator": "Qwen"
+    },
+    {
+        "id": 64,
+        "provider": "Pollinations",
+        "name": "Llama 3.3 70B",
+        "avgSpeed": 13.96,
+        "maxSpeed": 13.96,
+        "minSpeed": 13.96,
+        "firstToken": 18.4,
+        "creator": "Llama"
+    },
+    {
+        "id": 65,
+        "provider": "Pollinations",
+        "name": "Llama 4 Scout 17B",
+        "avgSpeed": 3.18,
+        "maxSpeed": 3.18,
+        "minSpeed": 3.18,
+        "firstToken": 15.56,
+        "creator": "Llama"
+    },
+    {
+        "id": 66,
+        "provider": "Pollinations",
+        "name": "DeepSeek R1 - Llama 70B",
+        "avgSpeed": 4.98,
+        "maxSpeed": 8.4,
+        "minSpeed": 1.56,
+        "firstToken": 20.51,
+        "creator": "Deepseek"
     }
 ]
