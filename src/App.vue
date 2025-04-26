@@ -3,12 +3,41 @@
     <nav class="bg-white dark:bg-gray-800 shadow-sm">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
-          <div class="flex items-center">
+          <div class="flex items-center flex-1">
             <span class="h-8 w-16 mr-4 text-2xl font-semibold text-gray-900 dark:text-white">[白嫖]</span>
-            <a class="text-xl font-semibold text-gray-900 dark:text-white" href="#">免费大模型速度排行榜</a>
-            <router-link to="/" class="ml-8 px-3 py-2 rounded-md text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">模型速度比较</router-link>
-            <router-link to="/vendors" class="px-3 py-2 rounded-md text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">供应商信息</router-link>
+            <a class="text-xl font-semibold text-gray-900 dark:text-white max-md:hidden" href="#">免费大模型速度排行榜</a>
+            <!-- 桌面导航 -->
+            <div class="hidden md:flex space-x-4 ml-8">
+              <router-link to="/" class="px-3 py-2 rounded-md text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">模型速度比较</router-link>
+              <router-link to="/vendors" class="px-3 py-2 rounded-md text-sm font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300">供应商信息</router-link>
+            </div>
           </div>
+          
+          <!-- 移动端汉堡菜单 -->
+          <div class="md:hidden flex items-center">
+            <button @click="isMenuOpen = !isMenuOpen" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+              <svg class="w-6 h-6 text-gray-900 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+            </button>
+          </div>
+
+          <!-- 移动端下拉菜单 -->
+          <transition
+            enter-active-class="transition ease-out duration-100"
+            enter-from-class="transform opacity-0 scale-95"
+            enter-to-class="transform opacity-100 scale-100"
+            leave-active-class="transition ease-in duration-75"
+            leave-from-class="transform opacity-100 scale-100"
+            leave-to-class="transform opacity-0 scale-95"
+          >
+            <div v-if="isMenuOpen" class="absolute md:hidden top-16 inset-x-0 mx-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg divide-y divide-gray-200 dark:divide-gray-700" @click.self="isMenuOpen = false">
+              <div class="px-4 py-3 space-y-2">
+                <router-link to="/" class="block px-4 py-2 text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md">模型速度比较</router-link>
+                <router-link to="/vendors" class="block px-4 py-2 text-sm text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md">供应商信息</router-link>
+              </div>
+            </div>
+          </transition>
           
           <div class="flex items-center space-x-4">
             <div class="hidden md:flex space-x-2 text-sm">
@@ -41,6 +70,7 @@ import ModelLeaderboard from './components/ModelLeaderboard.vue'
 import { ref, onMounted } from 'vue'
 
 const isDark = ref(false)
+const isMenuOpen = ref(false)
 
 const toggleDarkMode = () => {
   isDark.value = !isDark.value
