@@ -72,9 +72,9 @@ export default {
                 },
                 {
                     id: 3,
-                    name: 'Free-QWQ',
+                    name: '算了吗API（freeQwQ）',
                     type: '稳定性无保障',
-                    description: '分布式AI算力平台',
+                    description: '服务由来自广大网友共享的闲时设备提供算力支持',
                     limit: '不太稳定',
                     models: ['Qwen'],
                     link: 'https://qwq.aigpu.cn/'
