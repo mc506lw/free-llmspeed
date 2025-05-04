@@ -22,7 +22,7 @@
                     </button>
                 </div>
                 <div class="px-4 pb-4 text-sm text-gray-600 dark:text-gray-300">
-                    本次更新了Qwen3系列模型的速度测试！以及全新的筛选侧边栏！
+                    补全了phi-2，kimi-vl-a3b-thinking，MAI-DS-R1-FP8的参数量，spark-lite实在是找不到多大了qwq
                 </div>
                 <!-- 进度条 -->
                 <div v-if="autoCloseEnabled" class="absolute bottom-0 left-0 h-1 bg-blue-500"
