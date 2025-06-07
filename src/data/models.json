@@ -658,5 +658,27 @@
     "firstToken": 1.06,
     "creator": "科大讯飞",
     "size": "XXX"
+  },
+  {
+    "id": 61,
+    "provider": "硅基流动",
+    "name": "DeepSeek-R1-0528-Qwen3-8B",
+    "avgSpeed": 22.45,
+    "maxSpeed": 29.61,
+    "minSpeed": 15.3,
+    "firstToken": 0.25,
+    "creator": "Deepseek",
+    "size": "8"
+  },
+  {
+    "id": 62,
+    "provider": "硅基流动",
+    "name": "internlm2_5-7b-chat",
+    "avgSpeed": 47.63,
+    "maxSpeed": 67.52,
+    "minSpeed": 23.57,
+    "firstToken": 0.37,
+    "creator": "internlm",
+    "size": "7"
   }
 ]

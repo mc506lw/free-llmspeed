@@ -226,6 +226,7 @@ export default {
         { name: 'Openchat', logo: '' },
         { name: '微软', logo: 'https://cdn.rayonlabs.ai/chutes/logos/phi.webp' },
         { name: '谷歌', logo: '' },
+        { name: 'internlm', logo: 'https://sf-maas-uat-prod.oss-cn-shanghai.aliyuncs.com/Model_LOGO/internlm.svg' },
         { name: 'Zephyr', logo: '' },
         { name: 'Hermes', logo: '' },
         { name: 'Falcon', logo: '' },
