@@ -22,7 +22,7 @@
                     </button>
                 </div>
                 <div class="px-4 pb-4 text-sm text-gray-600 dark:text-gray-300">
-                    补全了phi-2，kimi-vl-a3b-thinking，MAI-DS-R1-FP8的参数量，spark-lite实在是找不到多大了qwq
+                    完啦！超级免费平台chutes开始收费了！！！我们白嫖党哭晕在厕所！
                 </div>
                 <!-- 进度条 -->
                 <div v-if="autoCloseEnabled" class="absolute bottom-0 left-0 h-1 bg-blue-500"

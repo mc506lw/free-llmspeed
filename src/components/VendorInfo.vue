@@ -106,14 +106,6 @@ export default {
                 },
                 {
                     id: 7,
-                    name: 'Chutes',
-                    type: '完全免费',
-                    description: '提供超多模型的免费服务',
-                    models: ['智谱 AI', 'Deepseek', 'Qwen'],
-                    link: 'https://chutes.ai/'
-                },
-                {
-                    id: 8,
                     name: 'Pollinations',
                     type: '稳定性无保障',
                     description: '极度不稳定',

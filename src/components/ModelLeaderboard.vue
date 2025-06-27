@@ -212,7 +212,6 @@ export default {
         { name: '讯飞星火', logo: 'https://xinghuo.xfyun.cn/spark-icon.ico' },
         { name: 'Cloudflare', logo: 'https://www.cloudflare-cn.com/favicon.ico' },
         { name: 'OpenRouter', logo: 'https://openrouter.ai/favicon.ico' },
-        { name: 'Chutes', logo: 'https://logos.chutes.ai/logos/24ef9084-7739-400c-aab6-135463a8c2d9.webp' },
         { name: 'Pollinations', logo: 'https://pollinations.ai/favicon-32x32.png' }
       ],
       creators: [
