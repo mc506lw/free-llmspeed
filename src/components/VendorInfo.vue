@@ -19,7 +19,7 @@
                     <div class="mb-3 min-h-10">
                         <p class="text-sm text-gray-600 dark:text-gray-300 mb-1">{{ vendor.description }}</p>
                         <p class="text-sm text-gray-500 dark:text-gray-400" v-if="vendor.limit">
-                            限制: {{ vendor.limit }}
+                            注意: {{ vendor.limit }}
                         </p>
                     </div>
 
@@ -66,7 +66,7 @@ export default {
                     name: 'BigModel',
                     type: '完全免费',
                     description: '提供智谱自家的免费小模型',
-                    limit: '每日100次请求',
+                    limit: '对并发数有限制',
                     models: ['智谱 AI'],
                     link: 'https://www.bigmodel.cn/'
                 },
@@ -85,6 +85,7 @@ export default {
                     type: '完全免费',
                     description: '提供自家的免费小模型',
                     models: ['Spark'],
+                    limit: '模型过于老旧，不推荐',
                     link: 'https://xinghuo.xfyun.cn/sparkapi'
                 },
                 {

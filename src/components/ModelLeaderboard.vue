@@ -163,7 +163,7 @@
                     <img v-if="creators.find(c => c.name === model.creator)?.logo"
                       :src="creators.find(c => c.name === model.creator)?.logo"
                       class="w-5 h-5 object-contain dark:brightness-150 md:w-6 md:h-6" />
-                    {{ model.name }}<div class="bg-blue-200 rounded-xl p-1 min-w-8 text-center">{{ model.size === 'XXX'
+                    {{ model.name }}<div class="bg-blue-200 dark:bg-blue-700 rounded-xl p-1 min-w-8 text-center">{{ model.size === 'XXX'
                       ? '未知' : `${model.size}B` }}</div>
                   </div>
                 </td>

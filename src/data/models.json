@@ -592,5 +592,27 @@
         "firstToken": 0.37,
         "creator": "internlm",
         "size": "7"
+    },
+    {
+    "id": 55,
+    "provider": "硅基流动",
+    "name": "THUDM/GLM-4.1V-9B-Thinking",
+    "avgSpeed": 21.85,
+    "maxSpeed": 28.87,
+    "minSpeed": 14.82,
+    "firstToken": 1.64,
+    "creator": "智谱 AI",
+    "size": "9"
+    },
+    {
+    "id": 56,
+    "provider": "BigModel",
+    "name": "GLM-4.1V-Thinking-Flash",
+    "avgSpeed": 42.8,
+    "maxSpeed": 73.21,
+    "minSpeed": 17.45,
+    "firstToken": 1.02,
+    "creator": "智谱 AI",
+    "size": "9"
     }
 ]

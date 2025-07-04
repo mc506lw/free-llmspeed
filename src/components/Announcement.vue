@@ -22,7 +22,7 @@
                     </button>
                 </div>
                 <div class="px-4 pb-4 text-sm text-gray-600 dark:text-gray-300">
-                    完啦！超级免费平台chutes开始收费了！！！我们白嫖党哭晕在厕所！
+                    太酷啦！智谱新视觉思考模型又是可以白嫖的！！！
                 </div>
                 <!-- 进度条 -->
                 <div v-if="autoCloseEnabled" class="absolute bottom-0 left-0 h-1 bg-blue-500"
